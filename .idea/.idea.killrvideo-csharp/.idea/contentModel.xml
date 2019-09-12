@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_killrvideo-csharp.-861568121.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/dryioc/4.0.7/contentFiles/cs/netstandard2.0/DryIoc" t="Include">
+      <e p="Container.cs" t="Include" />
+      <e p="Expression.cs" t="Include" />
+      <e p="FastExpressionCompiler.cs" t="Include" />
+      <e p="ImTools.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/dryiocattributes/5.0.0/contentFiles/cs/netstandard2.0/DryIocAttributes" t="Include">
+      <e p="Attributes.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
+      <e p="KillrVideo" t="IncludeRecursive">
+        <e p="KillrVideo.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="KillrVideo.Cassandra" t="IncludeRecursive">
+        <e p="KillrVideo.Cassandra.csproj" t="IncludeRecursive" />
+        <e p="MicrosecondsSinceEpoch.cs" t="Include" />
+        <e p="PreparedStatementCache.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.Cassandra.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="KillrVideo.Comments" t="IncludeRecursive">
+        <e p="CommentsService.cs" t="Include" />
+        <e p="KillrVideo.Comments.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.Comments.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="protos" t="Include">
+          <e p="CommentsEvents.generated.cs" t="Include" />
+          <e p="CommentsService.generated.cs" t="Include" />
+          <e p="CommentsServiceGrpc.cs" t="Include" />
+        </e>
+      </e>
+      <e p="KillrVideo.GraphDsl" t="IncludeRecursive">
+        <e p="Dsl" t="Include">
+          <e p="Enrichment.cs" t="Include" />
+          <e p="KillrVideoGraphTraversalExtensions.cs" t="Include" />
+          <e p="Recommender.cs" t="Include" />
+          <e p="Schema.cs" t="Include" />
+        </e>
+        <e p="KillrVideo.GraphDsl.csproj" t="IncludeRecursive" />
+        <e p="__KillrVideo.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.GraphDsl.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="KillrVideo.Host" t="IncludeRecursive">
+        <e p="HelperExtension.cs" t="Include" />
+        <e p="Host.cs" t="Include" />
+        <e p="HostOptions.cs" t="Include" />
+        <e p="KillrVideo.Host.csproj" t="IncludeRecursive" />
+        <e p="ServiceDiscovery" t="Include">
+          <e p="IFindServices.cs" t="Include" />
+          <e p="ServiceNotFoundException.cs" t="Include" />
+        </e>
+        <e p="Tasks" t="Include">
+          <e p="IHostTask.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.Host.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="KillrVideo.MessageBus" t="IncludeRecursive">
+        <e p="Bus.cs" t="Include" />
+        <e p="HelperExtensions.cs" t="Include" />
+        <e p="IBus.cs" t="Include" />
+        <e p="IHandleMessage.cs" t="Include" />
+        <e p="KillrVideo.MessageBus.csproj" t="IncludeRecursive" />
+        <e p="Publish" t="Include">
+          <e p="Publisher.cs" t="Include" />
+        </e>
+        <e p="Subscribe" t="Include">
+          <e p="HandlerRegistration.cs" t="Include" />
+          <e p="IHandlerFactory.cs" t="Include" />
+          <e p="Subscription.cs" t="Include" />
+          <e p="SubscriptionServer.cs" t="Include" />
+        </e>
+        <e p="Transport" t="Include">
+          <e p="AsyncQueue.cs" t="Include" />
+          <e p="IMessageTransport.cs" t="Include" />
+          <e p="InMemoryTopic.cs" t="Include" />
+          <e p="InMemoryTransport.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.MessageBus.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="KillrVideo.Protobuf" t="IncludeRecursive">
+        <e p="Clients" t="Include">
+          <e p="ChannelFactory.cs" t="Include" />
+          <e p="IChannelFactory.cs" t="Include" />
+        </e>
+        <e p="GrpcServerTask.cs" t="Include" />
+        <e p="IServerListener.cs" t="Include" />
+        <e p="KillrVideo.Protobuf.csproj" t="IncludeRecursive" />
+        <e p="ListenOptions.cs" t="Include" />
+        <e p="SerilogLogger.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="IConditionalGrpcServerService.cs" t="Include" />
+          <e p="IGrpcServerService.cs" t="Include" />
+        </e>
+        <e p="TimeUuid.cs" t="Include" />
+        <e p="Uuid.cs" t="Include" />
+        <e p="UuidExtensions.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.Protobuf.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="protos" t="Include">
+          <e p="CommonTypes.generated.cs" t="Include" />
+        </e>
+      </e>
+      <e p="KillrVideo.Ratings" t="IncludeRecursive">
+        <e p="Handlers" t="Include">
+          <e p="UserRatedVideoEventConsumer.cs" t="Include" />
+        </e>
+        <e p="KillrVideo.Ratings.csproj" t="IncludeRecursive" />
+        <e p="RatingsService.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.Ratings.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="protos" t="Include">
+          <e p="RatingsEvents.generated.cs" t="Include" />
+          <e p="RatingsService.generated.cs" t="Include" />
+          <e p="RatingsServiceGrpc.cs" t="Include" />
+        </e>
+      </e>
+      <e p="KillrVideo.Search" t="IncludeRecursive">
+        <e p="DataStaxEnterpriseSearch.cs" t="Include" />
+        <e p="Dtos" t="Include">
+          <e p="SearchResult.cs" t="Include" />
+          <e p="SuggestResult.cs" t="Include" />
+          <e p="Suggestion.cs" t="Include" />
+          <e p="SuggestionsResult.cs" t="Include" />
+        </e>
+        <e p="Handlers" t="Include">
+          <e p="UpdateSearchOnVideoAdded.cs" t="Include" />
+        </e>
+        <e p="KillrVideo.Search.csproj" t="IncludeRecursive" />
+        <e p="SearchOptions.cs" t="Include" />
+        <e p="SearchVideosByTag.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.Search.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="protos" t="Include">
+          <e p="SearchService.generated.cs" t="Include" />
+          <e p="SearchServiceGrpc.cs" t="Include" />
+          <e p="VideoCatalogEvents.generated.cs" t="Include" />
+        </e>
+      </e>
+      <e p="KillrVideo.Statistics" t="IncludeRecursive">
+        <e p="Class1.cs" t="Include" />
+        <e p="KillrVideo.Statistics.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="KillrVideo.Statistics.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="killrvideo-csharp.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
