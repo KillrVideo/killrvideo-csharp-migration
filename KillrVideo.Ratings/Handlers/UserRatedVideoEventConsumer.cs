@@ -51,8 +51,9 @@ namespace KillrVideo.Ratings
         }
 
         public async Task RateVideoInGraph(String videoId, String userId, int rating) {
-            var traversal = DseGraph.Traversal(_session)
-                                    .UserRateVideo(userId, videoId, rating);
+            var traversal = DseGraph.Traversal(_session).V(); //Added V() here so it doesn't fail
+                            //TODO Not sure what is expected here
+                                   // .UserRateVideo(userId, videoId, rating);
             await _session.ExecuteGraphAsync(traversal);
         }
     }

@@ -46,7 +46,7 @@ namespace KillrVideo.GraphDsl.Dsl {
                   t.Local<List<Vertex>>(
                         __.OutE(EdgeRated)
                             .Has(PropertyRating, Gt(minRate))
-                            .Limit<Edge>(minLocalRate))
+                            .Limit(minLocalRate))
                   .Sack(Operator.Assign)
                         .By(PropertyRating).InV();
         }

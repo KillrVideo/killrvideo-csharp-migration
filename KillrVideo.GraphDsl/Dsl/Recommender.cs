@@ -2,6 +2,7 @@
 using Gremlin.Net.Process.Traversal;
 using Gremlin.Net.Structure;
 
+
 namespace KillrVideo.GraphDsl.Dsl
 {
 
@@ -23,11 +24,11 @@ namespace KillrVideo.GraphDsl.Dsl
     {
         public static readonly Dictionary<Recommender, GraphTraversal<object, IList<Vertex>>> Traversals = new Dictionary<Recommender, GraphTraversal<object, IList<Vertex>>>
         {
-            {Recommender.SmallSample, __.OutE(EdgeActor).Sample(3).InV().Fold()},
-            {Recommender.LargeSample, __.OutE(EdgeActor).Sample(10).InV().Fold()},
-            {Recommender.Fifty50Sample, __.OutE(EdgeActor).Coin(0.5).InV().Fold()},
-            {Recommender.TimedSample, __.OutE(EdgeActor).TimeLimit(250).InV().Fold()},
-            {Recommender.All, __.OutE(EdgeActor).InV().Fold()}
+            {Recommender.SmallSample, __.OutE(KvGraph.EdgeActor).Sample(3).InV().Fold()},
+            {Recommender.LargeSample, __.OutE(KvGraph.EdgeActor).Sample(10).InV().Fold()},
+            {Recommender.Fifty50Sample, __.OutE(KvGraph.EdgeActor).Coin(0.5).InV().Fold()},
+            {Recommender.TimedSample, __.OutE(KvGraph.EdgeActor).TimeLimit(250).InV().Fold()},
+            {Recommender.All, __.OutE(KvGraph.EdgeActor).InV().Fold()}
         };
     }
 }

@@ -16,6 +16,7 @@ namespace KillrVideo.GraphDsl.Dsl {
         public const String EdgeRated            = "rated";
         public const String EdgeUploaded         = "uploaded";
         public const String EdgeTagWith          = "taggedWith";
+        public const String EdgeActor            = "actor";
 
         // Properties (both Vertices and edges)
         public const String PropertyRating       = "rating";
