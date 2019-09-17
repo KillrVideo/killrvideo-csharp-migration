@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-
+using DryIocAttributes;
 using Dse;
 using Dse.Graph;
-using Gremlin.Net.Process.Traversal;
-using Serilog;
-
 using KillrVideo.MessageBus;
 using KillrVideo.Ratings.Events;
-using DryIocAttributes;
-
-using static KillrVideo.GraphDsl.__KillrVideo;
+using Serilog;
 
 namespace KillrVideo.Ratings
 {

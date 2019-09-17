@@ -19,12 +19,8 @@ namespace KillrVideo.GraphDsl.Dsl
         All
     }
 
-    
-    
     public static class RecommenderLookup
     {
-        public static string EdgeActor = "";
-        
         public static readonly Dictionary<Recommender, GraphTraversal<object, IList<Vertex>>> Traversals = new Dictionary<Recommender, GraphTraversal<object, IList<Vertex>>>
         {
             {Recommender.SmallSample, __.OutE(EdgeActor).Sample(3).InV().Fold()},

@@ -14,6 +14,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\KillrVideo.Cassandra\KillrVideo.Cassandra.csproj" />
+      <ProjectReference Include="..\KillrVideo.GraphLayerDsl\KillrVideo.GraphLayerDsl.csproj" />
       <ProjectReference Include="..\KillrVideo.MessageBus\KillrVideo.MessageBus.csproj" />
       <ProjectReference Include="..\KillrVideo.Protobuf\KillrVideo.Protobuf.csproj" />
     </ItemGroup>
