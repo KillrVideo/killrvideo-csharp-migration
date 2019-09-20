@@ -18,6 +18,7 @@
       <ProjectReference Include="..\KillrVideo.Cassandra\KillrVideo.Cassandra.csproj" />
       <ProjectReference Include="..\KillrVideo.Host\KillrVideo.Host.csproj" />
       <ProjectReference Include="..\KillrVideo.Protobuf\KillrVideo.Protobuf.csproj" />
+      <ProjectReference Include="..\KillrVideo.GraphDsl\KillrVideo.GraphDsl.csproj" />
     </ItemGroup>
 
 </Project>
